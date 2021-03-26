@@ -10,9 +10,12 @@ Background:
         When give the username "<username>"
         Then give the password "<password>"
         Then submit the given details
+
         Examples:
         |username|password|
         |DineshDineshDineshi|123456|
         |abc|253|
         |bef|2569|
         |bhy|8579|
+        |dsf|5585|
+        
