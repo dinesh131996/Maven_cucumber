@@ -1,0 +1,1407 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "login_page",
+        "description": "",
+        "id": "booking-the-hotel;login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7943125782,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on login page",
+            "match": {
+              "location": "login_page.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173936484,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "username is given",
+            "match": {
+              "location": "login_page.username_is_given()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95830577,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "password is given",
+            "match": {
+              "location": "login_page.password_is_given()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1396454463,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click login button",
+            "match": {
+              "location": "login_page.click_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Search the hotel",
+        "description": "",
+        "id": "booking-the-hotel;search-the-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 207247439,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Give the location \"value\" \"Sydney\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value",
+                  "offset": 19
+                },
+                {
+                  "val": "Sydney",
+                  "offset": 27
+                }
+              ],
+              "location": "Search_Hotel.give_the_location(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151645263,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Give the hotel \"value\" \"Hotel Hervey\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value",
+                  "offset": 16
+                },
+                {
+                  "val": "Hotel Hervey",
+                  "offset": 24
+                }
+              ],
+              "location": "Search_Hotel.give_the_hotel(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136829326,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Room type \"value\" \"Double\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value",
+                  "offset": 11
+                },
+                {
+                  "val": "Double",
+                  "offset": 19
+                }
+              ],
+              "location": "Search_Hotel.room_type(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133875314,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "No of rooms \"value\" \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value",
+                  "offset": 13
+                },
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "Search_Hotel.no_of_rooms(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68092577,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clear value",
+            "match": {
+              "location": "Search_Hotel.clear_value()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87681539,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Check in date \"25/02/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25/02/2021",
+                  "offset": 15
+                }
+              ],
+              "location": "Search_Hotel.check_in_date(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68190984,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Clear value2",
+            "match": {
+              "location": "Search_Hotel.clear_value2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80166410,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "check out date \"28/02/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28/02/2021",
+                  "offset": 16
+                }
+              ],
+              "location": "Search_Hotel.check_out_date(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162891996,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Adult room \"int\" \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "int",
+                  "offset": 12
+                },
+                {
+                  "val": "2",
+                  "offset": 18
+                }
+              ],
+              "location": "Search_Hotel.adult_room(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166978590,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Child room \"int\" \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "int",
+                  "offset": 12
+                },
+                {
+                  "val": "2",
+                  "offset": 18
+                }
+              ],
+              "location": "Search_Hotel.child_room(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 945514105,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Submit",
+            "match": {
+              "location": "Search_Hotel.submit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking the hotel",
+    "description": "",
+    "id": "booking-the-hotel",
+    "keyword": "Feature",
+    "uri": "C:/Users/Mani/eclipse-workspace/T_Cucumber/src/test/java/com/cucumber/feature/Cucu.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 488291419,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "give the url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://adactinhotelapp.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186431714,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "give the username \"DineshDineshDineshDi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DineshDineshDineshDi",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100329511,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "give the password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 773368864,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "submit the given details",
+            "match": {
+              "location": "CucuBackgroundSd.submit_the_given_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": ": give the user inputs",
+        "description": "",
+        "id": "book-the-hotel;:-give-the-user-inputs;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 582033721,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "give the url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://adactinhotelapp.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101360065,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "give the username \"DineshDineshDineshi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DineshDineshDineshi",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77171346,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "give the password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 546543934,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "submit the given details",
+            "match": {
+              "location": "CucuBackgroundSd.submit_the_given_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 383171375,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "give the url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://adactinhotelapp.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106698173,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "give the username \"DineshDineshDineshDi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DineshDineshDineshDi",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94620114,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "give the password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 867528942,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "submit the given details",
+            "match": {
+              "location": "CucuBackgroundSd.submit_the_given_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": ": give the user inputs",
+        "description": "",
+        "id": "book-the-hotel;:-give-the-user-inputs;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 577890378,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "give the url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://adactinhotelapp.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138006583,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "give the username \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95219610,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "give the password \"253\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "253",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 437279340,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "submit the given details",
+            "match": {
+              "location": "CucuBackgroundSd.submit_the_given_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1022969200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "give the url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://adactinhotelapp.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102878425,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "give the username \"DineshDineshDineshDi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DineshDineshDineshDi",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78250801,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "give the password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 794581234,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "submit the given details",
+            "match": {
+              "location": "CucuBackgroundSd.submit_the_given_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": ": give the user inputs",
+        "description": "",
+        "id": "book-the-hotel;:-give-the-user-inputs;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 508046404,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "give the url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://adactinhotelapp.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102863935,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "give the username \"bef\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bef",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74594058,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "give the password \"2569\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2569",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 517383566,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "submit the given details",
+            "match": {
+              "location": "CucuBackgroundSd.submit_the_given_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 411691194,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "give the url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://adactinhotelapp.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139121054,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "give the username \"DineshDineshDineshDi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DineshDineshDineshDi",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150966076,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "give the password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 844996233,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "submit the given details",
+            "match": {
+              "location": "CucuBackgroundSd.submit_the_given_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": ": give the user inputs",
+        "description": "",
+        "id": "book-the-hotel;:-give-the-user-inputs;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 455336055,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "give the url \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://adactinhotelapp.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134410816,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "give the username \"bhy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bhy",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149231583,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "give the password \"8579\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8579",
+                  "offset": 19
+                }
+              ],
+              "location": "CucuBackgroundSd.give_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 478361402,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "submit the given details",
+            "match": {
+              "location": "CucuBackgroundSd.submit_the_given_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Book the hotel",
+    "description": "",
+    "id": "book-the-hotel",
+    "keyword": "Feature",
+    "uri": "C:/Users/Mani/eclipse-workspace/T_Cucumber/src/test/java/com/cucumber/feature/CucuBackground.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login the page",
+        "description": "",
+        "id": "save-the-details;login-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 484708330,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To setup the browser \"https://adactinhotelapp.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://adactinhotelapp.com/",
+                  "offset": 22
+                }
+              ],
+              "location": "CucuLisStepDefinition.to_setup_the_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3122449,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Give the username and password",
+            "match": {
+              "location": "CucuLisStepDefinition.give_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "DineshDineshDineshDi",
+                  "123456"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121785182,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the login button",
+            "match": {
+              "location": "CucuLisStepDefinition.click_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Save the details",
+    "description": "",
+    "id": "save-the-details",
+    "keyword": "Feature",
+    "uri": "C:/Users/Mani/eclipse-workspace/T_Cucumber/src/test/java/com/cucumber/feature/CucuLis.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login the page",
+        "description": "",
+        "id": "book-the-hotel;login-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 398377920,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Give the url",
+            "match": {
+              "location": "CucuMaStepDefintion.give_the_url(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url"
+                ],
+                "line": 4
+              },
+              {
+                "cells": [
+                  "https://adactinhotelapp.com/"
+                ],
+                "line": 5
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3603494221,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Given the username and password",
+            "match": {
+              "location": "CucuMaStepDefintion.given_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "DineshDineshDineshDi",
+                  "123456"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Dinesh",
+                  "123"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Vignesh",
+                  "2356"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153949,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click the login buttonn",
+            "match": {
+              "location": "CucuMaStepDefintion.click_the_login_buttonn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Book the hotel",
+    "description": "",
+    "id": "book-the-hotel",
+    "keyword": "Feature",
+    "uri": "C:/Users/Mani/eclipse-workspace/T_Cucumber/src/test/java/com/cucumber/feature/CucuMa.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Give the details",
+        "description": "",
+        "id": "booking-the-hotel;give-the-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 448011702,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "give the url",
+            "match": {
+              "location": "CucuScenarioOutlineStepDefinition.give_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101414400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Give the user name \"DineshDineshDineshDi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DineshDineshDineshDi",
+                  "offset": 20
+                }
+              ],
+              "location": "CucuScenarioOutlineStepDefinition.give_the_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76967891,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "giver the password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 20
+                }
+              ],
+              "location": "CucuScenarioOutlineStepDefinition.giver_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 776028259,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the Login button",
+            "match": {
+              "location": "CucuScenarioOutlineStepDefinition.click_the_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Give the details",
+        "description": "",
+        "id": "booking-the-hotel;give-the-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 404122937,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "give the url",
+            "match": {
+              "location": "CucuScenarioOutlineStepDefinition.give_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88996445,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Give the user name \"DineshDi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DineshDi",
+                  "offset": 20
+                }
+              ],
+              "location": "CucuScenarioOutlineStepDefinition.give_the_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73486832,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "giver the password \"586\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "586",
+                  "offset": 20
+                }
+              ],
+              "location": "CucuScenarioOutlineStepDefinition.giver_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 520013982,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the Login button",
+            "match": {
+              "location": "CucuScenarioOutlineStepDefinition.click_the_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Give the details",
+        "description": "",
+        "id": "booking-the-hotel;give-the-details;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 444799903,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "give the url",
+            "match": {
+              "location": "CucuScenarioOutlineStepDefinition.give_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141966395,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Give the user name \"asd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "asd",
+                  "offset": 20
+                }
+              ],
+              "location": "CucuScenarioOutlineStepDefinition.give_the_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136112708,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "giver the password \"253\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "253",
+                  "offset": 20
+                }
+              ],
+              "location": "CucuScenarioOutlineStepDefinition.giver_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 574786645,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the Login button",
+            "match": {
+              "location": "CucuScenarioOutlineStepDefinition.click_the_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Give the details",
+        "description": "",
+        "id": "booking-the-hotel;give-the-details;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 405513308,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "give the url",
+            "match": {
+              "location": "CucuScenarioOutlineStepDefinition.give_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79359234,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Give the user name \"adsf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adsf",
+                  "offset": 20
+                }
+              ],
+              "location": "CucuScenarioOutlineStepDefinition.give_the_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76090684,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "giver the password \"5869\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5869",
+                  "offset": 20
+                }
+              ],
+              "location": "CucuScenarioOutlineStepDefinition.giver_the_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 503841482,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the Login button",
+            "match": {
+              "location": "CucuScenarioOutlineStepDefinition.click_the_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking the hotel",
+    "description": "",
+    "id": "booking-the-hotel",
+    "keyword": "Feature",
+    "uri": "C:/Users/Mani/eclipse-workspace/T_Cucumber/src/test/java/com/cucumber/feature/CucuScenarioOutline.feature"
+  }
+]
